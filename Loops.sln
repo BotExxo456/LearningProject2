@@ -5,18 +5,33 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{C3B91945-EE3C-4FC0-8746-F6DDD00870EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loops", "Loops", "{BF9BB5BE-201B-4B6D-BA0C-AD62615FA5EE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhile", "Loops\DoWhile\DoWhile.csproj", "{8871075D-BD41-4F1F-9F25-8B6B637DC2DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C3B91945-EE3C-4FC0-8746-F6DDD00870EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C3B91945-EE3C-4FC0-8746-F6DDD00870EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3B91945-EE3C-4FC0-8746-F6DDD00870EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3B91945-EE3C-4FC0-8746-F6DDD00870EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8871075D-BD41-4F1F-9F25-8B6B637DC2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8871075D-BD41-4F1F-9F25-8B6B637DC2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8871075D-BD41-4F1F-9F25-8B6B637DC2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8871075D-BD41-4F1F-9F25-8B6B637DC2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3B91945-EE3C-4FC0-8746-F6DDD00870EB} = {BF9BB5BE-201B-4B6D-BA0C-AD62615FA5EE}
+		{8871075D-BD41-4F1F-9F25-8B6B637DC2DD} = {BF9BB5BE-201B-4B6D-BA0C-AD62615FA5EE}
 	EndGlobalSection
 EndGlobal
